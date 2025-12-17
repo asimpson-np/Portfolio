@@ -1,11 +1,111 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: rgb(176, 22, 132);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 1000px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .row {   
+    flex-direction: row;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
 </head>
+<body>
+
+  
+</div>
+
+<div class="row">
+  <div class="side">
+    </head>
 <body>
 <h1>Hi All, my name is Amari Simpson</h1>
 <h2>Application Development Student</h2>
@@ -14,33 +114,54 @@
   <h1>Portfolio Website</h1>
   <p>A website created by Amari Simpson!</p>
 </div><div class="navbar">
-  <a href="#">Projects</a>
-  <a href="#">Photos</a>
-  <a href="#">Contact Me</a>
+  <a href="#">Home</a>
+    <a href="#">My Projects</a>
+  <a href="#">About Me</a>
 
-<div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
-</div>
+
 
 <div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <img src ="Portfolio About Me Pic.jpg" style="height:200px;">
+  <div class="Right-aligned">
+
+
+    <img src ="Portfolio About Me Pic.jpg" style="height:220px;">
     <p>Coming from a Business Administration background and wanting to jump into Tech can be a challenge but I am up for it and willing to learn and growth my portfolio with each opportunity.</p>
     <h3>Some of my Favorite Hobbies outside of Learning</h3>
-    <img src ="Travel Photo.jfif" style="height:120px;"> Traveling
-    <img src ="Networking Photo.jfif" style="height:120px;"> Networking</div>
-    <img src ="Family Photo.jfif" style="height:120px;"> Spending Time with My Family</div>
+    <img src ="Travel Photo.jfif" style="height:80px;"> Traveling
+     <br>
+    <img src ="Networking Photo.jfif" style="height:80px;"> Networking</div>
+     <br>
+    <img src ="Family Photo.jfif" style="height:80px;"> Spending Time with My Family</div>
+    
   <div class="main">
    
 </div>
 
-<div class="footer">
-  <h2>Footer</h2>
+  <div class="main">
+    <h2>My Projects</h2>
+    <h5>Book Store App</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Fitness App</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+   <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Online Gorcery App</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
 </div>
 
+<div class="footer">
+  <h2>2025 My Portfolio. All rights reserved.</h2>
+</div>
 
 </body>
 </html>

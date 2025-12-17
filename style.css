@@ -17,7 +17,7 @@ p{line-height:1}
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: #988989; /* Dark background color */
 }
 
 /* Style the navigation bar links */
@@ -56,7 +56,7 @@ p{line-height:1}
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #a29494;
 }
 
 /* Style the navigation bar links */
@@ -80,19 +80,6 @@ p{line-height:1}
   color: black;
 }
 
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
 
 /* Main column */
 .main {   
@@ -100,6 +87,4 @@ p{line-height:1}
   background-color: white;
   padding: 20px;
 }
-
-
 
